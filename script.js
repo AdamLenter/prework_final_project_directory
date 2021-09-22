@@ -4,7 +4,7 @@ const professionalExperienceLI = document.getElementById("professionalExperience
 
 function displaySelectedDiv(selectedDiv)
     {
-    const divsToHide = ["profilePictureDiv", "professionalExperienceDiv"];
+    const divsToHide = ["profilePictureDiv", "professionalExperienceDiv", "familyDiv", "interestsDiv"];
 
     for(div of divsToHide) {
         if(div === selectedDiv) {

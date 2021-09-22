@@ -43,7 +43,7 @@ div#profilePictureDiv {
     width: 275px;
 }
 
-div#professionalExperience {
+div.informationFields {
     display: none;
     width: 800px;
     margin: auto;

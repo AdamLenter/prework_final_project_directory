@@ -10,17 +10,25 @@
         <div id = "menuDiv">
             <ul id = "menu">
                 <li><a id = "professionalExperienceLI" href = "#" onmouseover="displaySelectedDiv('professionalExperienceDiv')">Professional experience</a></li>
-                <li id = "familyLI"><a href = "#">Family</a></li>
-                <li id = "interestsLI"><a href = "#">Interests</a></li>
+                <li id = "familyLI"><a href = "#" onmouseover="displaySelectedDiv('familyDiv')">Family</a></li>
+                <li id = "interestsLI"><a href = "#" onmouseover="displaySelectedDiv('interestsDiv')">Interests</a></li>
             </ul>
 
         <div id = "profilePictureDiv">
             <img class = "picture" id = "profilePicture" src = "porch_pic.jpg" />
         </div>
 
-        <div id = "professionalExperienceDiv">
+        <div id = "professionalExperienceDiv" class = "informationFields">
             <h2>Professional Experience</h2>
             <img id = "visionAdvanceLogo" src = "vision_advance_logo.jpg">
+        </div>
+
+        <div id = "familyDiv" class = "informationFields">
+            <h2>Family</h2>
+        </div>
+
+        <div id = "interestsDiv" class = "informationFields">
+            <h2>Interests</h2>
         </div>
       <script src="script.js"></script>
   </body>
