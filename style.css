@@ -7,6 +7,11 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    color: #00274C;
+    text-align: center;
+}
+
 #menu {
     list-style-type: none;
     font-size: 24px;
@@ -31,9 +36,23 @@ div#profilePictureDiv {
     background-color: white;
 }
 
-.picture {
+#profilePicture {
     position: relative;
     top: 50px;
     left: 70px;
     width: 275px;
 }
+
+div#professionalExperience {
+    display: none;
+    width: 800px;
+    margin: auto;
+    background-color: white;
+}
+
+#visionAdvanceLogo { 
+    position: relative;
+    left: 200px;
+    width: 400px;
+}
+
