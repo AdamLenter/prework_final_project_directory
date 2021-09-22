@@ -7,18 +7,21 @@ h1 {
     text-align: center;
 }
 
-div#mainPhoto {
-    width: 400px;
-    height: 500px;
-    background-color: white;
-    margin: auto;
-    position: relative;
+#menu {
+    list-style-type: none;
+    font-size: 24px;
 }
 
-img#profilePicture {
-    width: 275px;
-    display: block;
-    position: absolute;
+div#pictureDiv {
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    background-color: white;
+}
+
+.picture {
+    position: relative;
     top: 50px;
-    left: 75px;
+    left: 70px;
+    width: 275px;
 }

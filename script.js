@@ -1,0 +1,1 @@
+const profilePictureDiv = document.getElementById("profilePictureDiv");
