@@ -12,7 +12,19 @@ h1 {
     font-size: 24px;
 }
 
-div#pictureDiv {
+#menu a {
+    text-decoration: none;
+}
+
+#menu li :visited {
+    color: blue;
+}
+
+#menu li :hover {
+    color: red;
+}
+
+div#profilePictureDiv {
     width: 400px;
     height: 500px;
     margin: auto;
